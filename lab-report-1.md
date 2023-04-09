@@ -1,7 +1,6 @@
 # Remote Access and FileSystem
 This lab report details how to access your CSE15L-specific account and connect to the `ieng6` remote server.
 
-
 ## Accessing CSE15L Account
 [https://sdacs.ucsd.edu/~icc/index.php](https://sdacs.ucsd.edu/~icc/index.php)
 
@@ -12,4 +11,9 @@ There is a link that says `Global Password Change Tool`. Click on that and proce
 ![Image](https://emivcleave.github.io/cse15l-lab-reports/password-change.png)
 Enter in your CSE15L account username and follow the password change instructions.
 
-## Installing VSCode
+## VSCode
+I didn't need to install VSCode as I already had it on my computer. However, this link is very helpful for installation.
+
+[VSCode Installation Tutorial](https://code.visualstudio.com/docs/setup/setup-overview)
+
+## Remotely Connecting
