@@ -23,3 +23,8 @@ Type in `ssh (cs15l username)@ieng6.ucsd.edu` to the terminal, replacing (cs15l 
 It will prompt you to type in your password, but the letters will not show up when typing.
 There may be an error message.
 ![Image](https://emivcleave.github.io/cse15l-lab-reports/error.png)
+In this situation, I found that I was able to connect to the server by changing my wifi from UCSD-PROTECTED or RESNET-PROTECTED to my personal hotspot or eduroam, if they were avaiable.
+When it connects, it should look something like this:
+
+
+## Trying Commands
