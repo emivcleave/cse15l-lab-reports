@@ -9,7 +9,9 @@ First, click the link and enter your username (UCSD email w/o @ucsd.edu) and stu
 If you have set a password (that you remember) for that account, you can ignore this next section.
 
 There is a link that says `Global Password Change Tool`. Click on that and proceed to the password change tool.
-![Image](password-change.png | width=100)
+<p align="center">
+  <img src="https://emivcleave.github.io/cse15l-lab-reports/password-change.png" width=55% height=55%>
+</p>
 Enter in your CSE15L account username and follow the password change instructions.
 
-
+## Installing VSCode
