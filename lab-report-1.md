@@ -12,8 +12,14 @@ There is a link that says `Global Password Change Tool`. Click on that and proce
 Enter in your CSE15L account username and follow the password change instructions.
 
 ## VSCode
-I didn't need to install VSCode as I already had it on my computer. However, this link is very helpful for installation.
+I didn't need to install VSCode as I already had it on my computer. However, this link is a tutorial for installation.
 
 [VSCode Installation Tutorial](https://code.visualstudio.com/docs/setup/setup-overview)
 
+Open VSCode once installed and open the terminal (mac: ctrl+`). 
+
 ## Remotely Connecting
+Type in `ssh (cs15l username)@ieng6.ucsd.edu` to the terminal, replacing (cs15l username) with your actual username. 
+It will prompt you to type in your password, but the letters will not show up when typing.
+There may be an error message.
+![Image](https://emivcleave.github.io/cse15l-lab-reports/error.png)
