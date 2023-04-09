@@ -10,7 +10,7 @@ If you have set a password (that you remember) for that account, you can ignore 
 
 There is a link that says `Global Password Change Tool`. Click on that and proceed to the password change tool.
 <p align="center">
-  <img src="https://emivcleave.github.io/cse15l-lab-reports/password-change.png" width=55% height=55%>
+  <img src="https://emivcleave.github.io/cse15l-lab-reports/password-change.png">
 </p>
 Enter in your CSE15L account username and follow the password change instructions.
 
