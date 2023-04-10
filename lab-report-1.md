@@ -20,11 +20,33 @@ Open VSCode once installed and open the terminal (mac: ctrl+`).
 
 ## Remotely Connecting
 Type in `ssh (cs15l username)@ieng6.ucsd.edu` to the terminal, replacing (cs15l username) with your actual username. 
+When connecting for the first time, it says something along the lines of "are you sure you want to continue connecting?" in which case type yes and continue. 
 It will prompt you to type in your password, but the letters will not show up when typing.
 There may be an error message.
 ![Image](https://emivcleave.github.io/cse15l-lab-reports/error.png)
-In this situation, I found that I was able to connect to the server by changing my wifi from UCSD-PROTECTED or RESNET-PROTECTED to my personal hotspot or eduroam, if they were avaiable.
-When it connects, it should look something like this:
-
+In this situation, I found that I was able to connect to the server by changing my wifi from UCSD-PROTECTED or RESNET-PROTECTED to my personal hotspot or eduroam, if they were available.
+When it connects, it should display some text. The end of the text should look something like this:
+![Image](https://emivcleave.github.io/cse15l-lab-reports/success.png)
 
 ## Trying Commands
+* `pwd` and `cd`
+
+I used `pwd` to print the working directory and `cd` to change the directory to and from my home directory to my documents folder.
+![Image](https://emivcleave.github.io/cse15l-lab-reports/pwd.png)
+
+* `ls`
+
+I used `ls` to list the contents of my documents folder. 
+I tried to access something that didn't exist in the current directory and was told so accordingly.
+![Image](https://emivcleave.github.io/cse15l-lab-reports/ls.png)
+
+* `cat`
+
+I used `cat` to print out the text in two files. 
+I used `..` to exit out of the documents folder, then accessed my desktop folder for the file I was looking for.
+![Image](https://emivcleave.github.io/cse15l-lab-reports/cat.png)
+
+* `mkdir`
+
+I used `mkdir` to create a new folder that didn't previously exist.
+![Image](https://emivcleave.github.io/cse15l-lab-reports/mkdir.png)
