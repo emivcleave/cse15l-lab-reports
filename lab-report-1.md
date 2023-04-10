@@ -50,3 +50,10 @@ I used `..` to exit out of the documents folder, then accessed my desktop folder
 
 I used `mkdir` to create a new folder that didn't previously exist.
 ![Image](https://emivcleave.github.io/cse15l-lab-reports/mkdir.png)
+
+---
+These were a few commands I tried when I had access to the remote server.
+![Image](https://emivcleave.github.io/cse15l-lab-reports/remote.png)
+
+This is how to log out.
+![Image](https://emivcleave.github.io/cse15l-lab-reports/exit.png)
