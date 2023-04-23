@@ -16,13 +16,9 @@ The `handleRequest` method is called, which gets the string after the path `/add
 In `Handler`, the string is added to `returnString`, followed by a new line.
 `returnString` is then returned, meaning all its contents are displayed on the webpage.
 * In the first example, the phrase "Iced Americano" is the first input, so `Iced Americano` is first stored in `parameters[1]`, then in `returnString`. 
- * Fun Fact! The `%20` in the URL represents a space: 32 is the ASCII character for a space, and 32 is 20 in hexadecimal.
+`Iced Americano` (with a new line after) is then displayed on the webpage.
+  * Fun Fact! The `%20` in the URL represents a space: 32 is the ASCII character for a space, and 32 is 20 in hexadecimal.
   The percentage symbol is special in URLs too!
-This is then displayed on the webpage: 
-```
-Iced Americano
-
-```
 * In this case, `parameters[0]` will always be "s", because otherwise the webpage would produce an error message. 
 Additionally, the path would remain "/add-message" and the separator for the parameters would be "=".
 
