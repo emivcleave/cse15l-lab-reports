@@ -4,6 +4,12 @@ How to set up a server and test for bugs.
 ## Part 1: Servers
 Below is the code for `StringServer` that concatenates a string in the query of the URL to the page on a new line.
 
+I used the imports from the Wavelet folder (lab 2), including `Handler.class`, `Server.java`,  `ServerHttpHandler.class`, and `URLHandler.class`.
+
+I used the imports from the Wavelet folder (lab 2), including `Handler.class`, `Server.java`,  `ServerHttpHandler.class`, and `URLHandler.class`.
+![Image](https://emivcleave.github.io/cse15l-lab-reports/code-lab-2.png)
+
+### Examples
 ![Image](https://emivcleave.github.io/cse15l-lab-reports/message-1.png)
 * The first two lines in the main method start a web server based on the command line argument.
 The `handleRequest` method is called, which gets the string after the path `/add-message` and after the query `=`.
@@ -19,12 +25,10 @@ In `Handler`, the string is added to `returnString`, followed by a new line.
 It once again pulls the query after `=`.
 * The input `Emi :)` is the new `parameters[1]` and is added to `returnString`, followed by a new line.
 The new contents of `returnString` are as follows, which is then displayed on the webpage:
+
 ```
 Iced Americano
 Emi :)
 
 ```
 * In this example, `url`, `parameters[0]` and `returnString` are all changed.
-
-I used the imports from the Wavelet folder (lab 2), including `Handler.class`, `Server.java`,  `ServerHttpHandler.class`, and `URLHandler.class`.
-![Image](https://emivcleave.github.io/cse15l-lab-reports/code-lab-2.png)
