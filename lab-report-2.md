@@ -105,3 +105,4 @@ This ensures that the lowest value is only skipped once, so it is counted if rep
 
 ## Part 3
 The most notable things I learned were setting up the web server and actually using the terminal to use JUnit.
+I also learned that I'm not as inept as I maybe thought I was when it comes to understanding code, I just actually have to look at it closely and read every line.
