@@ -29,4 +29,70 @@ Iced Americano
 Emi :)
 
 ```
-* In this example, `url`, `parameters[0]` and `returnString` are all changed.
+* In this example, `url`, `parameters[0]`, and `returnString` are all changed.
+
+## Part 2: Bugs
+The bug I chose for this section was the `averageWithoutLowest` method.
+
+* Fail-inducing input:
+
+```
+@Test
+  public void testAverageFail(){
+    double[] arr = {2, 2, 4, 8, 10};
+    assertEquals("6.0", "" + ArrayExamples.averageWithoutLowest(arr));
+  }
+```
+
+* Pass-inducing input:
+
+```
+@Test
+  public void testAveragePass(){
+    double[] arr = {2, 4, 6, 8};
+    assertEquals("6.0", "" + ArrayExamples.averageWithoutLowest(arr));
+  }
+```
+
+* Symptom:
+![Image](https://emicleave.github.io/cse15l-lab-reports/bug1-lab-2.png)
+
+* Fix:
+
+```
+// Before
+static double averageWithoutLowest(double[] arr) {
+    if(arr.length < 2) { return 0.0; }
+    double lowest = arr[0];
+    for(double num: arr) {
+      if(num < lowest) { lowest = num; }
+    }
+    double sum = 0;
+    for(double num: arr) {
+      if(num != lowest) { sum += num; }
+    }
+    return sum / (arr.length - 1);
+  }
+```
+
+```
+// After
+static double averageWithoutLowest(double[] arr) {
+    if(arr.length < 2) { return 0.0; }
+    double lowest = arr[0];
+    for(double num: arr) {
+      if(num < lowest) { lowest = num; }
+    }
+    double sum = 0;
+    boolean skipped = false;
+    for(double num: arr) {
+      if(num != lowest || skipped == true) { sum += num; }
+      else { skipped = true; }
+    }
+    return sum / (arr.length - 1);
+  }
+```
+
+The error is that the original program would skip every value that is the same as the lowest value, which is an issue when the lowest value is repeated.
+The fix is changing `skipped` to `true` when the lowest value has  been skipped and checking if the number isn't the lowest *or* if `skipped == true`.
+This ensures that the lowest value is only skipped once, so it is counted if repeated.
