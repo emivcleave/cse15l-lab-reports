@@ -55,7 +55,7 @@ The bug I chose for this section was the `averageWithoutLowest` method.
 ```
 
 * Symptom:
-![Image](https://emicleave.github.io/cse15l-lab-reports/bug1-lab-2.png)
+![Image](https://emivcleave.github.io/cse15l-lab-reports/bug1-lab-2.png)
 
 * Fix:
 
