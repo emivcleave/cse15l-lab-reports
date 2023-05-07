@@ -142,7 +142,7 @@ This lab report focuses on a few functions of the `less` command.
 ```
 The `-N` option adds line numbers to the beginnings of each line in the file.
 This is useful for navigating both large and small files.
-In the examples below I will continue to use `-N` to reference specific parts of the code block.
+In the examples below I will continue to use `-N` so I can use line numbers to reference specific parts of the code block.
 
 ### -s: Merges empty lines
 `less -Ns plos/pmed.0010029.txt`
