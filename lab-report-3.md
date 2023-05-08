@@ -45,6 +45,7 @@ This lab report focuses on a few functions of the `less` command.
      39     
      40
 ```
+
 `less -N government/Media/Library_Lawyers.txt`
 ```
       1 
@@ -188,6 +189,7 @@ In the examples below I will continue to use `-N` so I can use line numbers to r
      39     
      40
 ```
+
 `less -Ns government/Media/Library_Lawyers.txt`
 ```
       1 
@@ -281,6 +283,7 @@ However, it's still useful for ease of reading to use `-s`.
 
 ### -I: Ignore Case in Search
 `less -NI plos/pmed.0010029.txt`
+
 `/disease`
 ```ruby
       1 
@@ -325,7 +328,9 @@ However, it's still useful for ease of reading to use `-s`.
      40
 ```
 In this case, both "disease" and "Disease" are both highlighted during the search (I used quotes and colors to hopefully make it a little easier to see).
+
 `less -NI government/Media/Library_Lawyers.txt`
+
 `/lawyer`
 ```python
       1 
@@ -423,5 +428,52 @@ In this case, both "disease" and "Disease" are both highlighted during the searc
 ```
 In this case, both "lawyer" and "Lawyer" are both highlighted during the search.
 The `-I` option helps when searching documents. Sometimes we don't know exactly what we're looking for, so ignoring the case of the search term is helpful.
+
+### m: Mark
+This isn't an option in the command line but an input after using `less`. 
+To use this, open the document using the `less` command, preferably a longer file, scroll to where you want to be able to jump to easily, and type an `m`. 
+It will prompt `mark:` and you can type in a letter. 
+To access the mark, type in `'` and the letter. It will jump to the line where the mark was created.
+
+In the following examples, I made the terminal window 16 lines long.
+Here, I scrolled to line 21 and created a mark using `m` `a` in the `plos/pmed.0010029.txt` file. 
+I scrolled through to a random spot and typed `'` `a` and it jumped back to the mark I created:
+```
+     21         Rodgers and colleagues used data from the WHO database for 26 risk factors and from 14
+     22         epidemiological subregions of the world to calculate the proportion of
+     23         risk-factor-attributable disease burden in different population subgroups defined by age,
+     24         sex, and exposure level. For being underweight in childhood, for example—the leading risk
+     25         factor for global loss of healthy life—they found that only 35% of the disease burden
+     26         occurred in severely underweight children, the rest occurred in those only moderately
+     27         underweight. The relative risks for the moderately underweight are much lower, but the
+     28         number of children in that category is so large that the total attributable burden amounted
+     29         to almost two-thirds of the total global burden of disease for that risk factor.
+     30         The analysis confirms—and extends to a global level—previous research showing that many
+     31         major health risks are important across the range of exposure levels, not just among
+     32         individuals exposed to high levels of risk. It also points to risk factors that are
+     33         particularly prevalent among specific populations and age groups, and for which highly
+     34         targeted interventions could be effective.
+     35         Despite numerous caveats and limitations of studies like this one, such analyses are
+     36         essential aids in guiding the distribution of limited funds to lower the burden of life
+```
+I did the same thing in the `government/Media/Library_Lawyers.txt` at line 66.
+```
+     66 "It was excellent," he said. "I wanted to get some information
+     67 on how to continue and I got more than I was expecting. It sounds
+     68 like we will be able to get everything we want and then some and if
+     69 the judge is in a good mood, we might get even more!" Because the
+     70 Vacaville program is just starting up, Brownell said the number of
+     71 people who can be seen each night is small, but plans are already
+     72 in place to increase the totals. "Because we only have two
+     73 attorneys per night right now, we can only see about 15 people each
+     74 night," he said. "The Vallejo program has four attorneys each
+     75 night, so they can see more people. It's too early to tell, but I
+     76 think we will likely have another attorney here soon."
+     77 Brownell also said a partnership with the Solano County Bar
+     78 Association should help get the word out to attorneys who might
+     79 want to donate their time.
+     80 "This is a pure pro-bono project," Brownell said. "We really
+     81 commend them for coming in during the evening and helping out."
+```
 
 The main sources I used for this lab report were the `less --help` command, [https://man7.org/linux/man-pages/man1/less.1.html](https://man7.org/linux/man-pages/man1/less.1.html), and [https://phoenixnap.com/kb/less-command-in-linux](https://phoenixnap.com/kb/less-command-in-linux).
