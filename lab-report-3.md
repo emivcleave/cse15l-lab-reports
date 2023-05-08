@@ -326,7 +326,8 @@ However, it's still useful for ease of reading to use `-s`.
 ```
 In this case, both "disease" and "Disease" are both highlighted during the search (I used quotes and colors to hopefully make it a little easier to see).
 `less -NI government/Media/Library_Lawyers.txt`
-```ruby
+`/lawyer`
+```python
       1 
       2 
       3 
@@ -420,5 +421,7 @@ In this case, both "disease" and "Disease" are both highlighted during the searc
      91 
      92
 ```
+In this case, both "lawyer" and "Lawyer" are both highlighted during the search.
+The `-I` option helps when searching documents. Sometimes we don't know exactly what we're looking for, so ignoring the case of the search term is helpful.
 
 The main sources I used for this lab report were the `less --help` command, [https://man7.org/linux/man-pages/man1/less.1.html](https://man7.org/linux/man-pages/man1/less.1.html), and [https://phoenixnap.com/kb/less-command-in-linux](https://phoenixnap.com/kb/less-command-in-linux).
