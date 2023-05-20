@@ -11,7 +11,8 @@ In this lab report I replicated steps 4-9 from lab 7.
 ![Image](https://emivcleave.github.io/cse15l-lab-reports/LR4-3.png)
 
 ### Edit ListExamples.java so the tests pass
-
+![Image](https://emivcleave.github.io/cse15l-lab-reports/LR4-vim-before.png)
+![Image](https://emivcleave.github.io/cse15l-lab-reports/LR4-vim-after.png)
 
 ### Run the tests, show success
 ![Image](https://emivcleave.github.io/cse15l-lab-reports/LR4-4.png)
