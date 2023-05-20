@@ -1,13 +1,23 @@
-https://github.com/emivcleave/lab7
+# GitHub and Command Line
+In this lab report I replicated steps 4-9 from lab 7.
 
-Log into ieng6
+### Log into ieng6
+![Image](https://emivcleave.github.io/cse15l-lab-reports/LR4-1.png)
 
-Clone your fork of the repository from your Github account
+### Clone the fork of the repository
+![Image](https://emivcleave.github.io/cse15l-lab-reports/LR4-2.png)
 
-Run the tests, demonstrating that they fail
+### Run the tests, show failure
+![Image](https://emivcleave.github.io/cse15l-lab-reports/LR4-3.png)
 
-Edit the code file ListExamples.java to fix the failing test (as a reminder, the error in the code is just that index1 is used instead of index2 in the final loop in merge)
+### Edit ListExamples.java so the tests pass
 
-Run the tests, demonstrating that they now succeed
 
-Commit and push the resulting change to your Github account
+### Run the tests, show success
+![Image](https://emivcleave.github.io/cse15l-lab-reports/LR4-4.png)
+
+### Commit and push to GitHub
+![Image](https://emivcleave.github.io/cse15l-lab-reports/LR4-5.png)
+
+### Success!
+![Image](https://emivcleave.github.io/cse15l-lab-reports/LR4-6.png)
