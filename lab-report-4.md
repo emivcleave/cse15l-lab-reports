@@ -85,5 +85,6 @@ It prompted me to enter my username: `emivcleave` `<enter>`, again all typed.
 Then it asked for a password, so I created an access token and pasted it here: `<command> v` `<enter>`.
 
 ### Success!
-And to prove it worked I'm providing this screenshot too!
+And to prove it worked I'm providing these screenshots too!
 ![Image](https://emivcleave.github.io/cse15l-lab-reports/LR4-6.png)
+![Image](https://emivcleave.github.io/cse15l-lab-reports/LR4-7.png)
