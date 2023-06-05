@@ -26,7 +26,8 @@ Thank you!
 
 ### TA Response
 This seems to be an issue with how you referenced the variable `ListExamples`. Try reading this:
-[https://algodaily.com/lessons/bash-commands-cheat-sheet1](https://algodaily.com/lessons/bash-commands-cheat-sheet1#:~:text=can%20also%20be%20used%20to%20output%20the%20values%20of%20system%20variables%20when%20preceded%20with%20a%20dollar%20sign%20($))
+[https://algodaily.com/lessons/bash-commands-cheat-sheet1.](https://algodaily.com/lessons/bash-commands-cheat-sheet1#:~:text=can%20also%20be%20used%20to%20output%20the%20values%20of%20system%20variables%20when%20preceded%20with%20a%20dollar%20sign%20($))
+How does what you typed differ from the contents of this article?
 
 ### Student Response
 I fixed it! 
