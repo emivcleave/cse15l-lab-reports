@@ -15,10 +15,10 @@ I didn't expect `ListExamples.java not found, Score: 0/4` because I think I fixe
 **Detail the failure-inducing input and context. That might mean any or all of the command you're running, a test case, command-line arguments, working directory, even the last few commands you ran. Do your best to provide as much context as you can.**
 
 I replaced all instances of `student-submission/ListExamples.java` with the variable `ListExamples` which is the output for the command `find . -name ListExamples.java`.
-(image)
+![Image](https://emivcleave.github.io/cse15l-lab-reports/LR5-1.png)
 However, when I replace the variable `ListExamples` with the expected path `./student-submission/ListExamples.java`, it works.
-(image)
-(image)
+![Image](https://emivcleave.github.io/cse15l-lab-reports/LR5-2.png)
+![Image](https://emivcleave.github.io/cse15l-lab-reports/LR5-3.png)
 I hope this is enough context to help me in this case. 
 Thank you!
 
@@ -30,7 +30,7 @@ This seems to be an issue with how you referenced the variable `ListExamples`. T
 I fixed it! 
 Thank you!
 I forgot to add a `$` before the variable I wanted to reference, so the script thought I was literally referencing a file called `ListExamples`, and causing the error output.
-(image)
+![Image](https://emivcleave.github.io/cse15l-lab-reports/LR5-4.png)
 
 ### Process
 
