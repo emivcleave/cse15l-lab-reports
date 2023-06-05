@@ -16,9 +16,11 @@ I didn't expect `ListExamples.java not found, Score: 0/4` because I think I fixe
 
 I replaced all instances of `student-submission/ListExamples.java` with the variable `ListExamples` which is the output for the command `find . -name ListExamples.java`.
 ![Image](https://emivcleave.github.io/cse15l-lab-reports/LR5-1.png)
-However, when I replace the variable `ListExamples` with the expected path `./student-submission/ListExamples.java`, it works.
 ![Image](https://emivcleave.github.io/cse15l-lab-reports/LR5-2.png)
+
+However, when I replace the variable `ListExamples` with the expected path `./student-submission/ListExamples.java` (from the last line in the above image), it works.
 ![Image](https://emivcleave.github.io/cse15l-lab-reports/LR5-3.png)
+
 I hope this is enough context to help me in this case. 
 Thank you!
 
